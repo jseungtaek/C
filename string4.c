@@ -4,12 +4,12 @@
 int main()
 {
 	char str[1000001] = { 0 };
-	char alphabet[26] = { 0 };
+	int alphabet[26] = { 0 };
 	int max;
 	int max_alpha = 0;
 
 	scanf("%s", str);
-	for (int i = 0;i < strlen(str);i++)
+	for (int i = 0;i < str[i]!='\0';i++)
 	{
 		if (str[i] < 97) //'a'
 			str[i] += 32;
